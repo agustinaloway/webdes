@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Universitas Klabat</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="afterlogin.html"><img src="images/logo kata.png" class="logo"></a>
+                <div class="navigation" id="Navigation">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Tentang Unklab</a>
+                                <ul class="submenu">
+                                    <li><a href="Sejarah.html">Sejarah</a></li>
+                                    <li><a href="#">Visi Misi dan Tujuan</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Academic</a>
+                                <ul class="submenu">
+                                    <li><a href="#">Sarjana (S1)</a>
+                                        <ul class="submenu-dropdown">
+                                            <li><a href="Academic/course/filkom.html">Fakultas Ilmu Komputer</a></li>
+                                            <li><a href="Academic/course/feb.html">Fakultas Ekonomi dan Bisnis</a></li>
+                                            <li><a href="Academic/course/keperawatan.html">Fakultas Keperawatan</a></li>
+                                            <li><a href="Academic/course/filsafat.html">Fakultas Filsafat</a></li>
+                                            <li><a href="Academic/course/fkip.html">Fakultas Keguruan dan Ilmu Pendidikan</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Profesi</a>
+                                        <ul class="submenu-dropdown">
+                                            <li><a href="./Academic/course/keperawatan.html">Profesi Ners</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Dev</a></li>
+                        </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Klabat University</h1>
+        <strong><p>Pathway to Excellence</p></strong>
+        <p class="quotes">“It [education] is the harmonious development of the physical, the mental, and the spiritual power”
+            ELLEN G. WHITE.</p>
+        <a href="sign-in.html" class="button-for-visit"><b>Sign In</b></a>
+    </div>
+    </section>
+
+
+
+
+
+
+
+<script>
+
+    var Navigation = document.getElementById("Navigation");
+    function showMenu(){
+        Navigation.style.right = "0";
+    }
+    function hideMenu(){
+        Navigation.style.right = "-250px";
+    }
+</script>
+
+
+
+
+
+
+<footer>
+    <p align="center">&copy; 2024 Kelompok 2. Hak Cipta Dilindungi.</p>
+</footer>
+</body>
+</html>
